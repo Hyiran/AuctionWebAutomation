@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="AuctionWebAutomation" default="run" basedir=".">
+
+	<path id="libpath">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- COMPILE TESTS -->
+	<target name="compile">
+		<echo message="compiling tests" />
+		<delete dir="classes" />
+		<mkdir dir="classes" />
+		<javac encoding="GBK" debug="true" classpathref="libpath"
+			srcdir="src" destdir="classes" />
+	</target>
+
+	<!-- COPY FILES -->
+	<target name="copy">
+		<echo message="copy files" />
+		<copy todir="classes">
+			<fileset dir="src">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean">
+		<echo message="delete and mkdir" />
+		<delete dir="TestReport" />
+		<delete dir="Capture" />
+		<delete dir="log" />
+		<mkdir dir="TestReport" />
+		<mkdir dir="Capture" />
+		<mkdir dir="log" />
+	</target>
+
+	<taskdef name="testng" classname="com.beust.testng.TestNGAntTask"
+		classpathref="libpath" />
+
+	<path id="runpath">
+		<path refid="libpath" />
+		<pathelement location="classes" />
+	</path>
+
+	<!-- RUN TESTS -->
+	<target name="run.testng.HTMLReporter.iexplore">
+		<echo message="run.testng.HTMLReporter.iexplore" />
+
+		<testng classpathref="runpath" outputDir="TestReport/iexplore"
+			haltonfailure="false">
+			<xmlfileset dir="." includes="testng-webdriver-iexplore.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+		</testng>
+	</target>
+
+	<target name="run.testng.HTMLReporter.firefox">
+		<echo message="run.testng.HTMLReporter.firefox" />
+
+		<testng classpathref="runpath" outputDir="TestReport/firefox"
+			haltonfailure="false">
+			<xmlfileset dir="." includes="testng-webdriver-firefox.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+		</testng>
+	</target>
+
+	<target name="run.testng.HTMLReporter.googlechrome">
+		<echo message="run.testng.HTMLReporter.googlechrome" />
+
+		<testng classpathref="runpath" outputDir="TestReport/googlechrome"
+			haltonfailure="false">
+			<xmlfileset dir="." includes="testng-webdriver-googlechrome.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+		</testng>
+	</target>
+
+	<target name="run.reportng.HTMLReporter.iexplore">
+		<echo message="run.reportng.HTMLReporter.iexplore" />
+
+		<testng classpathref="runpath" outputDir="TestReport/iexplore"
+			useDefaultListeners="false"
+			listeners="org.uncommons.reportng.HTMLReporter,org.testng.reporters.FailedReporter">
+			<xmlfileset dir="." includes="testng-webdriver-iexplore.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+			<sysproperty key="org.uncommons.reportng.title" value="iexplore TestReport" />
+			<sysproperty key="org.uncommons.reportng.stylesheet"
+				value="custom.css" />
+			<sysproperty key="org.uncommons.reportng.velocity-log"
+				value="false" />
+		</testng>
+
+	</target>
+
+	<target name="run.reportng.HTMLReporter.firefox">
+		<echo message="run.reportng.HTMLReporter.firefox" />
+
+		<testng classpathref="runpath" outputDir="TestReport/firefox"
+			useDefaultListeners="false"
+			listeners="org.uncommons.reportng.HTMLReporter,org.testng.reporters.FailedReporter">
+			<xmlfileset dir="." includes="testng-webdriver-firefox.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+			<sysproperty key="org.uncommons.reportng.title" value="firefox TestReport" />
+			<sysproperty key="org.uncommons.reportng.stylesheet"
+				value="custom.css" />
+			<sysproperty key="org.uncommons.reportng.velocity-log"
+				value="false" />
+		</testng>
+	</target>
+
+	<target name="run.reportng.HTMLReporter.googlechrome">
+		<echo message="run.reportng.HTMLReporter.googlechrome" />
+
+		<testng classpathref="runpath" outputDir="TestReport/googlechrome"
+			useDefaultListeners="false"
+			listeners="org.uncommons.reportng.HTMLReporter,org.testng.reporters.FailedReporter">
+			<xmlfileset dir="." includes="testng-webdriver-googlechrome.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+			<sysproperty key="org.uncommons.reportng.title" value="googlechrom TestReport" />
+			<sysproperty key="org.uncommons.reportng.stylesheet"
+				value="custom.css" />
+			<sysproperty key="org.uncommons.reportng.velocity-log"
+				value="false" />
+		</testng>
+	</target>
+
+	<target name="run.reportng.JUnitXMLReporter.iexplore">
+		<echo message="run.reportng.JUnitXMLReporter.iexplore" />
+
+		<testng classpathref="runpath" outputDir="TestReport/iexplore"
+			useDefaultListeners="false"
+			listeners="org.uncommons.reportng.JUnitXMLReporter,org.testng.reporters.FailedReporter">
+			<xmlfileset dir="." includes="testng-webdriver-iexplore.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+		</testng>
+
+		<echo message="junitreport_iexplore start" />
+		<junitreport todir="TestReport/iexplore">
+			<fileset dir="TestReport/iexplore/xml">
+				<include name="*.xml" />
+			</fileset>
+			<report format="frames" todir="TestReport/iexplore" />
+		</junitreport>
+		<delete dir="TestReport/iexplore/xml" />
+		<echo message="junitreport_iexplore end" />
+	</target>
+
+	<target name="run.reportng.JUnitXMLReporter.firefox">
+		<echo message="run.reportng.JUnitXMLReporter.firefox" />
+
+		<testng classpathref="runpath" outputDir="TestReport/firefox"
+			useDefaultListeners="false"
+			listeners="org.uncommons.reportng.JUnitXMLReporter,org.testng.reporters.FailedReporter">
+			<xmlfileset dir="." includes="testng-webdriver-firefox.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+		</testng>
+
+		<echo message="junitreport_firefox start" />
+		<junitreport todir="TestReport/firefox">
+			<fileset dir="TestReport/firefox/xml">
+				<include name="*.xml" />
+			</fileset>
+			<report format="frames" todir="TestReport/firefox" />
+		</junitreport>
+		<delete dir="TestReport/firefox/xml" />
+		<echo message="junitreport_firefox end" />
+	</target>
+
+	<target name="run.reportng.JUnitXMLReporter.googlechrome">
+		<echo message="run.reportng.JUnitXMLReporter.googlechrome" />
+
+		<testng classpathref="runpath" outputDir="TestReport/googlechrome"
+			useDefaultListeners="false"
+			listeners="org.uncommons.reportng.JUnitXMLReporter,org.testng.reporters.FailedReporter">
+			<xmlfileset dir="." includes="testng-webdriver-googlechrome.xml" />
+			<!--xmlfileset dir="." includes="testng-failed.xml" / -->
+		</testng>
+
+		<echo message="junitreport_googlechrome start" />
+		<junitreport todir="TestReport/googlechrome">
+			<fileset dir="TestReport/googlechrome/xml">
+				<include name="*.xml" />
+			</fileset>
+			<report format="frames" todir="TestReport/googlechrome" />
+		</junitreport>
+		<delete dir="TestReport/googlechrome/xml" />
+		<echo message="junitreport_googlechrome end" />
+	</target>
+
+	<target name="run" description="Run Test">
+		<sequential>
+			<antcall target="compile" />
+			<antcall target="copy" />
+			<antcall target="clean" />
+			<!--antcall target="run.testng.HTMLReporter.iexplore" / -->
+			<!--antcall target="run.testng.HTMLReporter.firefox" / -->
+			<!--antcall target="run.testng.HTMLReporter.googlechrome" / -->
+			<!--antcall target="run.reportng.HTMLReporter.iexplore" /-->
+			<!--antcall target="run.reportng.HTMLReporter.firefox" /-->
+			<antcall target="run.reportng.HTMLReporter.googlechrome" />
+			<!--antcall target="run.reportng.JUnitXMLReporter.iexplore" /-->
+			<!--antcall target="run.reportng.JUnitXMLReporter.firefox" / -->
+			<!--antcall target="run.reportng.JUnitXMLReporter.googlechrome" /-->
+		</sequential>
+	</target>
+</project>

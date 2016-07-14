@@ -1,0 +1,518 @@
+2014/07/04 09:42:04 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:36 - browser : googlechrome
+2014/07/04 09:42:04 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:37 - browserDir : C:/Program Files/Google/Chrome/Application/chrome.exe
+2014/07/04 09:42:04 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:38 - baseURL : http://172.16.11.48:8080/auction
+2014/07/04 09:42:13  INFO com.framework.webdriver.testcase.InitWebdriverTest:123 - start ChromeDriver
+2014/07/04 09:42:13 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:126 - set pageLoadTimeout : 10
+2014/07/04 09:42:13 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:129 - set waitTimeout : 1
+2014/07/04 09:42:13 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:132 - set scriptTimeout : 10
+2014/07/04 09:42:23 DEBUG com.framework.webdriver.testcase.InitWebdriverTest:164 - navigate to url [ http://172.16.11.48:8080/auction ]
+2014/07/04 09:42:23  INFO com.framework.webdriver.basecase.WebdriverBaseCase:130 - method 【get】 运行通过！
+2014/07/04 09:42:23  INFO com.framework.webdriver.basecase.WebdriverBaseCase:32 - ======2014-07-04 09:42:23:406：测试集开始======
+2014/07/04 09:42:23  INFO com.framework.webdriver.basecase.WebdriverBaseCase:46 - ======2014-07-04 09:42:23:546：测试【com.auction.testcase.LogonActionTest】开始======
+2014/07/04 09:42:24  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:24:500：案例【com.auction.testcase.LogonActionTest.testLogin】开始======
+2014/07/04 09:42:24 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:24 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 登录]
+2014/07/04 09:42:25 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 登录] success
+2014/07/04 09:42:25  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 登录 ] 
+2014/07/04 09:42:26  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:26 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: username]
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: username] success
+2014/07/04 09:42:26  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: username ] cleared
+2014/07/04 09:42:26  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: username ]
+2014/07/04 09:42:26  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: password]
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: password] success
+2014/07/04 09:42:26  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:26 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: password ] cleared
+2014/07/04 09:42:26  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: password ]
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='登录']]
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='登录']] success
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='登录'] ] 
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:27 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : Java EE的框架程序
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [Java EE的框架程序] success
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:27 DEBUG com.auction.testcase.LogonActionTest:52 - flag==true
+2014/07/04 09:42:27  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.LogonActionTest.testLogin】 运行通过！
+2014/07/04 09:42:27  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:27:515：案例【com.auction.testcase.LogonActionTest.testLogin】结束======
+2014/07/04 09:42:27  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 3 秒！======
+2014/07/04 09:42:27  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:27:515：案例【com.auction.testcase.LogonActionTest.testLogout】开始======
+2014/07/04 09:42:27 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 注销]
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 注销] success
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 注销 ] 
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:27 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 请输入用户名和密码登录系统
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [请输入用户名和密码登录系统] success
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:27 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:27  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:28 DEBUG com.auction.testcase.LogonActionTest:67 - flag==true
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.LogonActionTest.testLogout】 运行通过！
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:28:015：案例【com.auction.testcase.LogonActionTest.testLogout】结束======
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 0 秒！======
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:28:031：案例【com.auction.testcase.LogonActionTest.testLoginByNameErr】开始======
+2014/07/04 09:42:28 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 登录]
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 登录] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 登录 ] 
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:28 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: username]
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: username] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: username ] cleared
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql22 ] to element [ By.name: username ]
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: password]
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: password] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: password ] cleared
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: password ]
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='登录']]
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='登录']] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='登录'] ] 
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 用户名/密码不匹配
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [用户名/密码不匹配] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:28  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:28 DEBUG com.auction.testcase.LogonActionTest:83 - flag==true
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.LogonActionTest.testLoginByNameErr】 运行通过！
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:28:953：案例【com.auction.testcase.LogonActionTest.testLoginByNameErr】结束======
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 0 秒！======
+2014/07/04 09:42:28  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:28:968：案例【com.auction.testcase.LogonActionTest.testLoginByPwdErr】开始======
+2014/07/04 09:42:28 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:28 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 登录]
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 登录] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 登录 ] 
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:29 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: username]
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: username] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: username ] cleared
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: username ]
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: password]
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: password] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: password ] cleared
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql22 ] to element [ By.name: password ]
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='登录']]
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='登录']] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='登录'] ] 
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 用户名/密码不匹配
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [用户名/密码不匹配] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:29  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:29 DEBUG com.auction.testcase.LogonActionTest:99 - flag==true
+2014/07/04 09:42:29  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.LogonActionTest.testLoginByPwdErr】 运行通过！
+2014/07/04 09:42:29  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:29:890：案例【com.auction.testcase.LogonActionTest.testLoginByPwdErr】结束======
+2014/07/04 09:42:29  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 0 秒！======
+2014/07/04 09:42:29  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:29:984：案例【com.auction.testcase.LogonActionTest.testLoginByVercodeErr】开始======
+2014/07/04 09:42:29 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:29 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 登录]
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 登录] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 登录 ] 
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:30 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: username]
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: username] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: username ] cleared
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: username ]
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: password]
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: password] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: password ] cleared
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: password ]
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666889 ] to element [ By.name: vercode ]
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='登录']]
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='登录']] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='登录'] ] 
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 验证码不匹配
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [验证码不匹配] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:30 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:30  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:30 DEBUG com.auction.testcase.LogonActionTest:115 - flag==true
+2014/07/04 09:42:30  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.LogonActionTest.testLoginByVercodeErr】 运行通过！
+2014/07/04 09:42:30  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:30:968：案例【com.auction.testcase.LogonActionTest.testLoginByVercodeErr】结束======
+2014/07/04 09:42:30  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 0 秒！======
+2014/07/04 09:42:31  INFO com.framework.webdriver.basecase.WebdriverBaseCase:53 - ======2014-07-04 09:42:31:015：测试【com.auction.testcase.LogonActionTest】结束======
+2014/07/04 09:42:31  INFO com.framework.webdriver.basecase.WebdriverBaseCase:54 - ======本次测试运行消耗时间 7 秒！======
+2014/07/04 09:42:31  INFO com.framework.webdriver.basecase.WebdriverBaseCase:46 - ======2014-07-04 09:42:31:015：测试【com.auction.testcase.ManageKindActionTest】开始======
+2014/07/04 09:42:31 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 登录]
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 登录] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 登录 ] 
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:31 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: username]
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: username] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: username ] cleared
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: username ]
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: password]
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: password] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: password ] cleared
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ mysql ] to element [ By.name: password ]
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='登录']]
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='登录']] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='登录'] ] 
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:31 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : Java EE的框架程序
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [Java EE的框架程序] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:31  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:31:750：案例【com.auction.testcase.ManageKindActionTest.testAddKindOK】开始======
+2014/07/04 09:42:31 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 管理种类]
+2014/07/04 09:42:31 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 管理种类] success
+2014/07/04 09:42:31  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 管理种类 ] 
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:32 DEBUG com.auction.page.ManageKind.ManageKindPage:14 - running test in 【ManageKindPage】
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: name]
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: name] success
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: name ] cleared
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094231750 ] to element [ By.name: name ]
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: desc]
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: desc] success
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: desc ] cleared
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094231750 ] to element [ By.name: desc ]
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='添加']]
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='添加']] success
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='添加'] ] 
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 20140704094231750
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [20140704094231750] success
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:32 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:32  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:33 DEBUG com.auction.testcase.ManageKindActionTest:45 - flag==true
+2014/07/04 09:42:33  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.ManageKindActionTest.testAddKindOK】 运行通过！
+2014/07/04 09:42:33  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:33:078：案例【com.auction.testcase.ManageKindActionTest.testAddKindOK】结束======
+2014/07/04 09:42:33  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 1 秒！======
+2014/07/04 09:42:33  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:33:093：案例【com.auction.testcase.ManageKindActionTest.testAddKindByKindNameEmpty】开始======
+2014/07/04 09:42:33 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 管理种类]
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 管理种类] success
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 管理种类 ] 
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:33 DEBUG com.auction.page.ManageKind.ManageKindPage:14 - running test in 【ManageKindPage】
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: name]
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: name] success
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: name ] cleared
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [  ] to element [ By.name: name ]
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: desc]
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: desc] success
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: desc ] cleared
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094233093 ] to element [ By.name: desc ]
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:33 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:33  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='添加']]
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='添加']] success
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='添加'] ] 
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 种类名必填
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [种类名必填] success
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:34 DEBUG com.auction.testcase.ManageKindActionTest:62 - flag==true
+2014/07/04 09:42:34  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.ManageKindActionTest.testAddKindByKindNameEmpty】 运行通过！
+2014/07/04 09:42:34  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:34:593：案例【com.auction.testcase.ManageKindActionTest.testAddKindByKindNameEmpty】结束======
+2014/07/04 09:42:34  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 1 秒！======
+2014/07/04 09:42:34  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:34:656：案例【com.auction.testcase.ManageKindActionTest.testAddKindByVercodeErr】开始======
+2014/07/04 09:42:34 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 管理种类]
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 管理种类] success
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 管理种类 ] 
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:34 DEBUG com.auction.page.ManageKind.ManageKindPage:14 - running test in 【ManageKindPage】
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: name]
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: name] success
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:34 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: name ] cleared
+2014/07/04 09:42:34  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094234656 ] to element [ By.name: name ]
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: desc]
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: desc] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: desc ] cleared
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094234656 ] to element [ By.name: desc ]
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666889 ] to element [ By.name: vercode ]
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='添加']]
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='添加']] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='添加'] ] 
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 验证码不匹配,请重新输入
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [验证码不匹配,请重新输入] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:35 DEBUG com.auction.testcase.ManageKindActionTest:79 - flag==true
+2014/07/04 09:42:35  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.ManageKindActionTest.testAddKindByVercodeErr】 运行通过！
+2014/07/04 09:42:35  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:35:640：案例【com.auction.testcase.ManageKindActionTest.testAddKindByVercodeErr】结束======
+2014/07/04 09:42:35  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 0 秒！======
+2014/07/04 09:42:35  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:35:671：案例【com.auction.testcase.ManageKindActionTest.testAddKindByVercodeEmpty】开始======
+2014/07/04 09:42:35 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 管理种类]
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 管理种类] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 管理种类 ] 
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:35 DEBUG com.auction.page.ManageKind.ManageKindPage:14 - running test in 【ManageKindPage】
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: name]
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: name] success
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:35 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: name ] cleared
+2014/07/04 09:42:35  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094235671 ] to element [ By.name: name ]
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: desc]
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: desc] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: desc ] cleared
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094235671 ] to element [ By.name: desc ]
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [  ] to element [ By.name: vercode ]
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='添加']]
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='添加']] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='添加'] ] 
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 验证码必填
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [验证码必填] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:36 DEBUG com.auction.testcase.ManageKindActionTest:95 - flag==true
+2014/07/04 09:42:36  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.ManageKindActionTest.testAddKindByVercodeEmpty】 运行通过！
+2014/07/04 09:42:36  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:36:765：案例【com.auction.testcase.ManageKindActionTest.testAddKindByVercodeEmpty】结束======
+2014/07/04 09:42:36  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 1 秒！======
+2014/07/04 09:42:36  INFO com.framework.webdriver.basecase.WebdriverBaseCase:61 - ======2014-07-04 09:42:36:812：案例【com.auction.testcase.ManageKindActionTest.testDelKind】开始======
+2014/07/04 09:42:36 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 管理种类]
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 管理种类] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 管理种类 ] 
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:36 DEBUG com.auction.page.ManageKind.ManageKindPage:14 - running test in 【ManageKindPage】
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: name]
+2014/07/04 09:42:36 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: name] success
+2014/07/04 09:42:36  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: name ] cleared
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094236812 ] to element [ By.name: name ]
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: desc]
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: desc] success
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: desc ] cleared
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 20140704094236812 ] to element [ By.name: desc ]
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.name: vercode]
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.name: vercode] success
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1767 - element [ By.name: vercode ] cleared
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【clear】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1831 - input text [ 666888 ] to element [ By.name: vercode ]
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【sendKeys】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //input[@type='submit'][@value='添加']]
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //input[@type='submit'][@value='添加']] success
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //input[@type='submit'][@value='添加'] ] 
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.xpath: //td[contains(text(),'20140704094236812')]/following::a[contains(text(),'删除')][1]]
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.xpath: //td[contains(text(),'20140704094236812')]/following::a[contains(text(),'删除')][1]] success
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.xpath: //td[contains(text(),'20140704094236812')]/following::a[contains(text(),'删除')][1] ] 
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isAlertExists】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:2510 - click OK button on alert
+2014/07/04 09:42:37  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【chooseOKOnAlert】 运行通过！
+2014/07/04 09:42:37 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:370 - expectedText is : 20140704094236812
+2014/07/04 09:42:39 ERROR com.framework.webdriver.baseapi.WebdriverBaseApi:381 - org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=33.0.1750.154)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 5.1 SP3 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: '20130128-0854', ip: '172.16.11.48', os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_30'
+Session ID: 745649828298f81df1ebec162434e096
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir3004_21824}, rotatable=false, locationContextEnabled=true, version=33.0.1750.154, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2014/07/04 09:42:40  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentNotAppeared】 运行通过！
+2014/07/04 09:42:40 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:40 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:40  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:40 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:40  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:40 DEBUG com.auction.testcase.ManageKindActionTest:111 - flag==true
+2014/07/04 09:42:40  INFO com.framework.webdriver.basecase.WebdriverBaseCase:69 - 案例 【com.auction.testcase.ManageKindActionTest.testDelKind】 运行通过！
+2014/07/04 09:42:40  INFO com.framework.webdriver.basecase.WebdriverBaseCase:80 - ======2014-07-04 09:42:40:843：案例【com.auction.testcase.ManageKindActionTest.testDelKind】结束======
+2014/07/04 09:42:40  INFO com.framework.webdriver.basecase.WebdriverBaseCase:83 - ======本次案例运行消耗时间 4 秒！======
+2014/07/04 09:42:40 DEBUG com.auction.page.HomePage:14 - running test in 【HomePage】
+2014/07/04 09:42:40 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 注销]
+2014/07/04 09:42:40 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 注销] success
+2014/07/04 09:42:40  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:41 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 注销 ] 
+2014/07/04 09:42:41  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:41 DEBUG com.auction.page.LoginPage:12 - running test in 【LoginPage】
+2014/07/04 09:42:41 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:285 - expectedText is : 请输入用户名和密码登录系统
+2014/07/04 09:42:41 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:293 - find expectedText [请输入用户名和密码登录系统] success
+2014/07/04 09:42:41  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isContentAppeared】 运行通过！
+2014/07/04 09:42:41 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:412 - find element [By.partialLinkText: 返回首页]
+2014/07/04 09:42:41 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:419 - find element [By.partialLinkText: 返回首页] success
+2014/07/04 09:42:41  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【isElementPresent】 运行通过！
+2014/07/04 09:42:41 DEBUG com.framework.webdriver.baseapi.WebdriverBaseApi:1601 - click on element [ By.partialLinkText: 返回首页 ] 
+2014/07/04 09:42:41  INFO com.framework.webdriver.baseapi.WebdriverBaseApi:86 - method 【click】 运行通过！
+2014/07/04 09:42:41  INFO com.framework.webdriver.basecase.WebdriverBaseCase:53 - ======2014-07-04 09:42:41:343：测试【com.auction.testcase.ManageKindActionTest】结束======
+2014/07/04 09:42:41  INFO com.framework.webdriver.basecase.WebdriverBaseCase:54 - ======本次测试运行消耗时间 10 秒！======
+2014/07/04 09:42:41  INFO com.framework.webdriver.basecase.WebdriverBaseCase:38 - ======2014-07-04 09:42:41:343：测试集结束======
+2014/07/04 09:42:41  INFO com.framework.webdriver.basecase.WebdriverBaseCase:39 - ======本次测试集运行消耗时间 17 秒！======
+2014/07/04 09:42:42  INFO com.framework.webdriver.testcase.InitWebdriverTest:143 - stop Driver

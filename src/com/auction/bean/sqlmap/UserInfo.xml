@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "./sql-map-2.dtd">
+
+<sqlMap namespace="UserInfo">
+
+	<typeAlias alias="User" type="com.auction.bean.UserInfo" />
+
+	<resultMap id="UserInfoResult" class="User">
+		<result property="username" column="username" />
+		<result property="password" column="password" />
+		<result property="vercode" column="vercode" />
+	</resultMap>
+
+	<select id="getAllUsers" resultMap="UserInfoResult">
+		select
+		username,password,vercode
+		from tb_UserInfo
+	</select>
+
+	<select id="getUserByParam" parameterClass="String" resultMap="UserInfoResult">
+		select username,password,vercode from tb_UserInfo where
+		method=#method#
+	</select>
+
+</sqlMap>
